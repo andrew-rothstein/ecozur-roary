@@ -36,10 +36,8 @@ rule refine:
         node_data = "results/branch_lengths.json",
     params:
         root = 'min_dev',
-        coal = 'opt', 
-        gen = '150',
+        coal = 'skyline',
         date_infer = 'marginal',
-        clock_rate = '0.00000069',
         branch_infer = 'auto' ,
         clock_iqd = '4',
     shell:
@@ -53,9 +51,7 @@ rule refine:
             --date-inference {params.date_infer} \
             --date-confidence \
             --branch-length-inference {params.branch_infer} \
-            --clock-rate {params.clock_rate} \
             --clock-filter-iqd {params.clock_iqd} \
-            --gen-per-year {params.gen} \
             --output-tree {output.tree} \
             --output-node-data {output.node_data}
         """
