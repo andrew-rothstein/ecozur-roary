@@ -1,0 +1,33 @@
+Map from character to field name
+A:	Borbon
+B:	Casas
+C:	Esmeraldas
+D:	Quito
+E:	Rural_villages
+F:	?
+
+
+Substitution rate (mu): 472.761707
+
+Equilibrium frequencies (pi_i):
+  A: 0.1844
+  B: 0.2325
+  C: 0.2128
+  D: 0.1605
+  E: 0.2098
+
+Symmetrized rates from j->i (W_ij):
+	A	B	C	D	E
+  A	0	0.4845	2.1251	2.0202	1.292
+  B	0.4845	0	0.9498	0.6286	0.2869
+  C	2.1251	0.9498	0	2.7267	1.6344
+  D	2.0202	0.6286	2.7267	0	1.0555
+  E	1.292	0.2869	1.6344	1.0555	0
+
+Actual rates from j->i (Q_ij):
+	A	B	C	D	E
+  A	0	0.0893	0.3919	0.3725	0.2382
+  B	0.1127	0	0.2208	0.1462	0.0667
+  C	0.4522	0.2021	0	0.5802	0.3478
+  D	0.3242	0.1009	0.4376	0	0.1694
+  E	0.2711	0.0602	0.3429	0.2215	0

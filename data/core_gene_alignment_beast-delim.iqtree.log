@@ -1,0 +1,394 @@
+IQ-TREE multicore version 2.0.3 for Mac OS X 64-bit built Dec 19 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Andys-M1.local (SSE4.2, 16 GB RAM)
+Command: iqtree -ninit 2 -n 2 -me 0.05 -nt 1 -s data/core_gene_alignment_beast-delim.fasta -m GTR
+Seed:    685762 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Apr  8 20:31:28 2021
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file data/core_gene_alignment_beast-delim.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 259 sequences with 151387 columns, 5528 distinct patterns
+7239 parsimony-informative, 2487 singleton sites, 141661 constant sites
+                   Gap/Ambiguity  Composition  p-value
+   1  B001_5               0.00%    passed     99.93%
+   2  B100_5               0.00%    passed     96.54%
+   3  B101_1               0.00%    passed     99.78%
+   4  B108_3               0.00%    passed     99.93%
+   5  B109_1               0.00%    passed     99.98%
+   6  B118_2               0.00%    passed     99.40%
+   7  B119_1               0.00%    passed     99.81%
+   8  B119_2               0.00%    passed     99.72%
+   9  B12_1                0.00%    passed     98.52%
+  10  B141_2               0.00%    passed     99.98%
+  11  B143_4               0.00%    passed     99.99%
+  12  B145_4               0.00%    passed     99.81%
+  13  B147_1               0.00%    passed     99.80%
+  14  B169_1               0.00%    passed     99.96%
+  15  B188_1               0.00%    passed     99.67%
+  16  B196_1               0.00%    passed     99.99%
+  17  B200_2               0.00%    passed     99.98%
+  18  B200_MG15_isolate    0.00%    passed     99.98%
+  19  B201_3               0.00%    passed     99.81%
+  20  B201_5               0.00%    passed     99.81%
+  21  B202_1               0.00%    passed     99.99%
+  22  B202_2               0.00%    passed     99.99%
+  23  B207_2               0.00%    passed     99.72%
+  24  B215_5               0.00%    passed     99.74%
+  25  B225_3               0.00%    passed     99.92%
+  26  B226_1               0.00%    passed     99.84%
+  27  B228_2               0.00%    passed     99.84%
+  28  B231_1               0.00%    passed     94.53%
+  29  B231_2               0.00%    passed     99.96%
+  30  B234_1               0.00%    passed     99.65%
+  31  B235_3               0.00%    passed     94.53%
+  32  B244_3               0.00%    passed     99.99%
+  33  B246_1               0.00%    passed     99.74%
+  34  B24_1                0.00%    passed     99.94%
+  35  B252_1               0.00%    passed     99.90%
+  36  B255_1               0.00%    passed     99.99%
+  37  B262_1               0.00%    passed     99.97%
+  38  B270_2               0.00%    passed     99.90%
+  39  B274_2               0.00%    passed     99.72%
+  40  B280_4               0.00%    passed     99.94%
+  41  B295_2               0.00%    passed     99.99%
+  42  B309_1               0.00%    passed     99.89%
+  43  B311_2               0.00%    passed     96.80%
+  44  B312_4               0.00%    passed     99.92%
+  45  B313_5               0.00%    passed     99.94%
+  46  B323_2               0.00%    passed     99.98%
+  47  B327_1               0.00%    passed     99.76%
+  48  B329_2               0.00%    passed     99.67%
+  49  B36_1                0.00%    passed     99.69%
+  50  B37_1                0.00%    passed     99.67%
+  51  B37_2                0.00%    passed     99.89%
+  52  B37_3                0.00%    passed     99.99%
+  53  B42_1                0.00%    passed     99.62%
+  54  B42_3                0.00%    passed     99.62%
+  55  B45_2                0.00%    passed     99.98%
+  56  B46_1                0.00%    passed     99.97%
+  57  B62_5                0.00%    passed     99.99%
+  58  B66_1                0.00%    passed     99.81%
+  59  B66_4                0.00%    passed     99.81%
+  60  B68_1                0.00%    passed     99.95%
+  61  B69_1                0.00%    passed     99.73%
+  62  B75_4                0.00%    passed     96.54%
+  63  B75_5                0.00%    passed     99.63%
+  64  B84_2                0.00%    passed     99.99%
+  65  B84_3                0.00%    passed     99.99%
+  66  B88_3                0.00%    passed     99.79%
+  67  B89_1                0.00%    passed     99.95%
+  68  B95_1                0.00%    passed     99.67%
+  69  B99_5                0.00%    passed     99.99%
+  70  C101_1               0.00%    passed     99.98%
+  71  C102_1               0.00%    passed     99.88%
+  72  C110_5               0.00%    passed     94.01%
+  73  C13_2                0.00%    passed     99.91%
+  74  C14_2A               0.00%    passed     99.63%
+  75  C14_2B               0.00%    passed     99.87%
+  76  C21_2                0.00%    passed     99.80%
+  77  C21_4                0.00%    passed     99.80%
+  78  C23_1                0.00%    passed     99.74%
+  79  C25_2                0.00%    passed     99.99%
+  80  C26_2                0.00%    passed     99.99%
+  81  C32_3                0.00%    passed     99.95%
+  82  C33_3                0.00%    passed     99.99%
+  83  C34_2                0.00%    passed     99.94%
+  84  C36_1                0.00%    passed     99.94%
+  85  C38_1                0.00%    passed     99.95%
+  86  C46_4                0.00%    passed     99.99%
+  87  C46_isolate          0.00%    passed     99.99%
+  88  C50_4                0.00%    passed     99.88%
+  89  C70_1                0.00%    passed     98.95%
+  90  C71_2                0.00%    passed     99.87%
+  91  C79_1                0.00%    passed     99.89%
+  92  C80_4                0.00%    passed     99.80%
+  93  C85_1                0.00%    passed     99.94%
+  94  C86_4                0.00%    passed     99.94%
+  95  C87_3                0.00%    passed     99.91%
+  96  C9_2                 0.00%    passed     99.99%
+  97  E100_4               0.00%    passed     99.69%
+  98  E100_5               0.00%    passed     99.89%
+  99  E101_1               0.00%    passed     99.92%
+ 100  E106_1               0.00%    passed     99.93%
+ 101  E119_5               0.00%    passed     99.64%
+ 102  E124_5               0.00%    passed     99.93%
+ 103  E124_6               0.00%    passed     96.30%
+ 104  E129_3               0.00%    passed     99.88%
+ 105  E13                  0.00%    passed     98.40%
+ 106  E130_1               0.00%    passed     99.95%
+ 107  E132_5               0.00%    passed     99.69%
+ 108  E135_2               0.00%    passed     99.69%
+ 109  E135_5               0.00%    passed     99.69%
+ 110  E135_6               0.00%    passed     99.91%
+ 111  E139_2               0.00%    passed     99.99%
+ 112  E140                 0.00%    passed     99.98%
+ 113  E143_1               0.00%    passed     99.59%
+ 114  E144                 0.00%    passed     99.98%
+ 115  E14_6                0.00%    passed     99.98%
+ 116  E158                 0.00%    passed     99.69%
+ 117  E162                 0.00%    passed     97.45%
+ 118  E166                 0.00%    passed     99.85%
+ 119  E167_5               0.00%    passed     99.64%
+ 120  E16_6                0.00%    passed     99.66%
+ 121  E170                 0.00%    passed     97.02%
+ 122  E173                 0.00%    passed     99.80%
+ 123  E175_4               0.00%    passed     99.99%
+ 124  E175_5               0.00%    passed     99.99%
+ 125  E177_6               0.00%    passed     96.54%
+ 126  E179_6               0.00%    passed     96.99%
+ 127  E184_3               0.00%    passed     99.96%
+ 128  E187_2               0.00%    passed     94.64%
+ 129  E188_2               0.00%    passed     99.86%
+ 130  E192                 0.00%    passed     99.76%
+ 131  E195_3               0.00%    passed     99.94%
+ 132  E195_5               0.00%    passed     99.04%
+ 133  E197_5               0.00%    passed     99.89%
+ 134  E205                 0.00%    passed     99.84%
+ 135  E20_1                0.00%    passed     99.80%
+ 136  E212_4               0.00%    passed     99.69%
+ 137  E215_4               0.00%    passed     99.97%
+ 138  E218                 0.00%    passed     99.78%
+ 139  E21_3                0.00%    passed     99.75%
+ 140  E228_3               0.00%    passed     99.96%
+ 141  E230_4               0.00%    passed     99.94%
+ 142  E236_4               0.00%    passed     99.63%
+ 143  E238_3               0.00%    passed     99.80%
+ 144  E238_5               0.00%    passed     97.29%
+ 145  E240_5               0.00%    passed     94.20%
+ 146  E26                  0.00%    passed     97.02%
+ 147  E27                  0.00%    passed     97.06%
+ 148  E28                  0.00%    passed     99.62%
+ 149  E29_1                0.00%    passed     99.89%
+ 150  E33_4                0.00%    passed     99.99%
+ 151  E34                  0.00%    passed     99.78%
+ 152  E34L_M               0.00%    passed     99.78%
+ 153  E43                  0.00%    passed     99.98%
+ 154  E44_6                0.00%    passed     99.98%
+ 155  E55_5                0.00%    passed     99.99%
+ 156  E55_6                0.00%    passed     99.77%
+ 157  E57                  0.00%    passed     99.67%
+ 158  E58_3                0.00%    passed     99.94%
+ 159  E5_5                 0.00%    passed     99.52%
+ 160  E61_3                0.00%    passed     99.96%
+ 161  E67_5                0.00%    passed     99.74%
+ 162  E70_3                0.00%    passed     99.74%
+ 163  E71                  0.00%    passed     94.48%
+ 164  E71_6                0.00%    passed     99.90%
+ 165  E72                  0.00%    passed     99.71%
+ 166  E72_3                0.00%    passed     99.76%
+ 167  E76_1                0.00%    passed     99.84%
+ 168  E84                  0.00%    passed    100.00%
+ 169  E88_3                0.00%    passed     99.88%
+ 170  E88_4                0.00%    passed     99.92%
+ 171  E89_4                0.00%    passed     99.92%
+ 172  E92_5                0.00%    passed     99.63%
+ 173  E99_3                0.00%    passed     96.10%
+ 174  Q106                 0.00%    passed     99.77%
+ 175  Q108                 0.00%    passed     99.99%
+ 176  Q128                 0.00%    passed     99.98%
+ 177  Q132                 0.00%    passed     99.49%
+ 178  Q142                 0.00%    passed     97.10%
+ 179  Q145                 0.00%    passed     99.49%
+ 180  Q147                 0.00%    passed     99.67%
+ 181  Q16_1                0.00%    passed     99.99%
+ 182  Q186                 0.00%    passed     99.83%
+ 183  Q196                 0.00%    passed     99.79%
+ 184  Q199                 0.00%    passed     99.92%
+ 185  Q212                 0.00%    passed     99.79%
+ 186  Q21_2                0.00%    passed     99.91%
+ 187  Q223                 0.00%    passed     97.10%
+ 188  Q233                 0.00%    passed     99.99%
+ 189  Q23_1                0.00%    passed     99.90%
+ 190  Q240                 0.00%    passed     99.67%
+ 191  Q243                 0.00%    passed     99.80%
+ 192  Q245_2               0.00%    passed     99.73%
+ 193  Q249                 0.00%    passed     99.99%
+ 194  Q250_1               0.00%    passed     99.86%
+ 195  Q253                 0.00%    passed     99.97%
+ 196  Q270                 0.00%    passed     99.93%
+ 197  Q275                 0.00%    passed     99.98%
+ 198  Q279_1               0.00%    passed     99.99%
+ 199  Q27_1                0.00%    passed     99.99%
+ 200  Q282                 0.00%    passed    100.00%
+ 201  Q284                 0.00%    passed     99.92%
+ 202  Q288                 0.00%    passed     99.89%
+ 203  Q289                 0.00%    passed     99.83%
+ 204  Q294                 0.00%    passed    100.00%
+ 205  Q295                 0.00%    passed     97.15%
+ 206  Q300                 0.00%    passed     99.73%
+ 207  Q307_1               0.00%    passed     99.64%
+ 208  Q308                 0.00%    passed     99.78%
+ 209  Q310                 0.00%    passed     97.10%
+ 210  Q312_1               0.00%    passed     99.89%
+ 211  Q312_reads_u803      0.00%    passed     99.89%
+ 212  Q31_6                0.00%    passed     99.89%
+ 213  Q33_6                0.00%    passed     99.88%
+ 214  Q34_6                0.00%    passed     99.88%
+ 215  Q35_1                0.00%    passed     99.49%
+ 216  Q37_4                0.00%    passed    100.00%
+ 217  Q38_1                0.00%    passed     99.99%
+ 218  Q40                  0.00%    passed     99.64%
+ 219  Q49                  0.00%    passed     99.99%
+ 220  Q51                  0.00%    passed     97.02%
+ 221  Q51_MG_31_isolate    0.00%    passed     97.02%
+ 222  Q53                  0.00%    passed     99.99%
+ 223  Q56                  0.00%    passed     97.46%
+ 224  Q65                  0.00%    passed     99.49%
+ 225  Q71_1                0.00%    passed     99.89%
+ 226  Q85_1                0.00%    passed     99.70%
+ 227  Q86                  0.00%    passed     99.52%
+ 228  Q87                  0.00%    passed     99.99%
+ 229  Q89                  0.00%    passed     99.93%
+ 230  Q91                  0.00%    passed     99.65%
+ 231  R104_2               0.00%    passed     99.93%
+ 232  R109_1               0.00%    passed     99.98%
+ 233  R110_5               0.00%    passed     99.51%
+ 234  R113_1               0.00%    passed     99.81%
+ 235  R113_3               0.00%    passed     99.96%
+ 236  R116_2               0.00%    passed     99.89%
+ 237  R119_3               0.00%    passed     99.99%
+ 238  R122_4               0.00%    passed     99.81%
+ 239  R127_3               0.00%    passed     94.01%
+ 240  R12_1                0.00%    passed     99.92%
+ 241  R137_1               0.00%    passed     99.99%
+ 242  R138_1               0.00%    passed     99.95%
+ 243  R17_2                0.00%    passed     99.99%
+ 244  R36_1                0.00%    passed     99.69%
+ 245  R42_2                0.00%    passed     99.66%
+ 246  R43_2                0.00%    passed     99.95%
+ 247  R46_3                0.00%    passed     99.99%
+ 248  R55_1                0.00%    passed    100.00%
+ 249  R56_3                0.00%    passed     99.95%
+ 250  R58_1                0.00%    passed     99.58%
+ 251  R60_2                0.00%    passed     99.79%
+ 252  R66_4                0.00%    passed     99.99%
+ 253  R67_3                0.00%    passed     99.69%
+ 254  R83_3                0.00%    passed     99.99%
+ 255  R84_2                0.00%    passed     99.92%
+ 256  R85_2                0.00%    passed     99.64%
+ 257  R86_1                0.00%    passed     97.02%
+ 258  R8_4                 0.00%    passed     99.92%
+ 259  R92_5                0.00%    passed     99.93%
+****  TOTAL                0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000660559 for long alignment
+NOTE: B75_4 is identical to B100_5 but kept for subsequent analysis
+NOTE: E106_1 is identical to B108_3 but kept for subsequent analysis
+NOTE: B201_3 is identical to B119_1 but kept for subsequent analysis
+NOTE: E173 is identical to B147_1 but kept for subsequent analysis
+NOTE: B200_MG15_isolate is identical to B200_2 but kept for subsequent analysis
+NOTE: B235_3 is identical to B231_1 but kept for subsequent analysis
+NOTE: B295_2 is identical to B255_1 but kept for subsequent analysis
+NOTE: Q147 is identical to B329_2 but kept for subsequent analysis
+NOTE: E132_5 is identical to B36_1 but kept for subsequent analysis
+NOTE: B42_3 is identical to B42_1 but kept for subsequent analysis
+NOTE: C46_4 is identical to B62_5 but kept for subsequent analysis
+NOTE: C14_2A is identical to B75_5 but kept for subsequent analysis
+NOTE: R127_3 is identical to C110_5 but kept for subsequent analysis
+NOTE: C71_2 is identical to C14_2B but kept for subsequent analysis
+NOTE: C21_4 is identical to C21_2 but kept for subsequent analysis
+NOTE: Q108 is identical to C25_2 but kept for subsequent analysis
+NOTE: C38_1 is identical to C32_3 but kept for subsequent analysis
+NOTE: C36_1 is identical to C34_2 but kept for subsequent analysis
+NOTE: E158 is identical to E100_4 but kept for subsequent analysis
+NOTE: Q199 is identical to E101_1 but kept for subsequent analysis
+NOTE: E167_5 is identical to E119_5 but kept for subsequent analysis
+NOTE: R46_3 is identical to E139_2 but kept for subsequent analysis
+NOTE: E14_6 is identical to E140 but kept for subsequent analysis
+NOTE: E26 is identical to E170 but kept for subsequent analysis
+NOTE: E61_3 is identical to E184_3 but kept for subsequent analysis
+NOTE: E72_3 is identical to E192 but kept for subsequent analysis
+NOTE: Q288 is identical to E29_1 but kept for subsequent analysis
+NOTE: E34L_M is identical to E34 but kept for subsequent analysis
+NOTE: E89_4 is identical to E88_4 but kept for subsequent analysis
+NOTE: Q223 is identical to Q142 but kept for subsequent analysis
+NOTE: Q35_1 is identical to Q145 but kept for subsequent analysis
+NOTE: Q249 is identical to Q233 but kept for subsequent analysis
+NOTE: 26 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: E177_6 (identical to B100_5) is ignored but added at the end
+NOTE: E124_5 (identical to B108_3) is ignored but added at the end
+NOTE: R92_5 (identical to B108_3) is ignored but added at the end
+NOTE: B201_5 (identical to B119_1) is ignored but added at the end
+NOTE: B66_1 (identical to B119_1) is ignored but added at the end
+NOTE: B66_4 (identical to B119_1) is ignored but added at the end
+NOTE: Q243 (identical to B147_1) is ignored but added at the end
+NOTE: R119_3 (identical to B255_1) is ignored but added at the end
+NOTE: E135_2 (identical to B36_1) is ignored but added at the end
+NOTE: E135_5 (identical to B36_1) is ignored but added at the end
+NOTE: R36_1 (identical to B36_1) is ignored but added at the end
+NOTE: C46_isolate (identical to B62_5) is ignored but added at the end
+NOTE: E55_5 (identical to B62_5) is ignored but added at the end
+NOTE: R66_4 (identical to B62_5) is ignored but added at the end
+NOTE: E92_5 (identical to B75_5) is ignored but added at the end
+NOTE: E20_1 (identical to C21_2) is ignored but added at the end
+NOTE: Q279_1 (identical to C25_2) is ignored but added at the end
+NOTE: E130_1 (identical to C32_3) is ignored but added at the end
+NOTE: R8_4 (identical to E101_1) is ignored but added at the end
+NOTE: Q307_1 (identical to E119_5) is ignored but added at the end
+NOTE: E44_6 (identical to E140) is ignored but added at the end
+NOTE: Q51 (identical to E170) is ignored but added at the end
+NOTE: Q51_MG_31_isolate (identical to E170) is ignored but added at the end
+NOTE: R86_1 (identical to E170) is ignored but added at the end
+NOTE: Q71_1 (identical to E29_1) is ignored but added at the end
+NOTE: Q310 (identical to Q142) is ignored but added at the end
+Alignment was printed to data/core_gene_alignment_beast-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to data/core_gene_alignment_beast-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.220 seconds
+
+NOTE: 41 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -449039.569
+2. Current log-likelihood: -437894.549
+Optimal log-likelihood: -437894.424
+Rate parameters:  A-C: 0.83754  A-G: 3.44548  A-T: 0.85249  C-G: 0.50558  C-T: 6.25433  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.243  G: 0.272  T: 0.236
+Parameters optimization took 2 rounds (2.281 sec)
+Computing ML distances based on estimated model parameters... 2.782 sec
+Computing BIONJ tree...
+0.022 seconds
+Log-likelihood of BIONJ tree: -440064.893
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -437875.926
+Finish initializing candidate tree set (4)
+Current best tree score: -437875.926 / CPU time: 3.393
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -437875.926
+Optimal log-likelihood: -437875.922
+Rate parameters:  A-C: 0.83703  A-G: 3.44449  A-T: 0.85531  C-G: 0.50577  C-T: 6.25671  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.243  G: 0.272  T: 0.236
+Parameters optimization took 1 rounds (0.490 sec)
+BEST SCORE FOUND : -437875.922
+Total tree length: 0.181
+
+Total number of iterations: 2
+CPU time used for tree search: 3.386 sec (0h:0m:3s)
+Wall-clock time used for tree search: 3.394 sec (0h:0m:3s)
+Total CPU time used: 9.658 sec (0h:0m:9s)
+Total wall-clock time used: 9.695 sec (0h:0m:9s)
+
+Analysis results written to: 
+  IQ-TREE report:                data/core_gene_alignment_beast-delim.fasta.iqtree
+  Maximum-likelihood tree:       data/core_gene_alignment_beast-delim.fasta.treefile
+  Likelihood distances:          data/core_gene_alignment_beast-delim.fasta.mldist
+  Screen log file:               data/core_gene_alignment_beast-delim.fasta.log
+
+Date and Time: Thu Apr  8 20:31:41 2021

@@ -1,0 +1,49 @@
+{
+  "title": "Nextstrain build for E. coli in Ecuador",
+  "maintainers": [
+    {"name": "Andy Rothstein"}
+  ],
+  "build_url": "https://github.com/nextstrain/ecozur-roary",
+  "colorings": [
+    {
+      "key": "site_id",
+      "title": "Site",
+      "type": "categorical"
+    },
+    {
+      "key": "gradient",
+      "title": "Gradient",
+      "type": "categorical"
+    },
+    {
+      "key": "PCR",
+      "title": "PCR-patho",
+      "type": "categorical"
+    },
+    {
+      "key": "genome",
+      "title": "genome-patho",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "site_id",
+    "gradient",
+    "PCR",
+    "genome"
+  ],
+  "panels": [
+     "tree",
+     "map"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "site_id",
+    "gradient",
+    "PCR",
+    "genome",
+    "date"
+  ]
+}

@@ -1,0 +1,24 @@
+key	value
+site_id	Rural_villages
+site_id	Borbon
+site_id	Casas
+site_id	Esmeraldas
+site_id	Quito
+gradient	rural
+gradient	urban
+PCR pathotype	DAEC
+PCR pathotype	NA
+PCR pathotype	ETEC
+PCR pathotype	EAEC
+PCR pathotype	EIEC
+PCR pathotype	aEPEC
+PCR pathotype	tEPEC
+genome pathotype	DAEC
+genome pathotype	NA
+genome pathotype	EAEC/ETEC
+genome pathotype	EAEC
+genome pathotype	EIEC
+genome pathotype	ETEC
+genome pathotype	aEPEC
+genome pathotype	tEPEC
+genome pathotype	DAEC/EAEC

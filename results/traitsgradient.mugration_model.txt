@@ -1,0 +1,21 @@
+Map from character to field name
+A:	rural
+B:	urban
+C:	?
+
+
+Substitution rate (mu): 292.534234
+
+Equilibrium frequencies (pi_i):
+  A: 0.4297
+  B: 0.5703
+
+Symmetrized rates from j->i (W_ij):
+	A	B
+  A	0	2.0403
+  B	2.0403	0
+
+Actual rates from j->i (Q_ij):
+	A	B
+  A	0	0.8768
+  B	1.1635	0

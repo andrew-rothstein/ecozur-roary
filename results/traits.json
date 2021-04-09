@@ -1,0 +1,3325 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "11.2.0"
+  },
+  "models": {
+    "PCR": {
+      "alphabet": [
+        "",
+        "DAEC",
+        "EAEC",
+        "EIEC",
+        "ETEC",
+        "aEPEC",
+        "tEPEC",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.12296545758436586,
+        0.11980376902842042,
+        0.1304303492860891,
+        0.1347959908493451,
+        0.1606278136669144,
+        0.1789550349133968,
+        0.15242158467146846
+      ],
+      "rate": 121.0383585075946,
+      "transition_matrix": [
+        [
+          0.0,
+          6.715775394209321,
+          4.389528882242628,
+          1.3785464286214233,
+          2.224151789591952,
+          2.661283086850515,
+          0.43289809394718376
+        ],
+        [
+          6.715775394209321,
+          0.0,
+          0.7018561849682571,
+          0.48486442575689576,
+          1.0124224947311098,
+          0.7938065075440094,
+          0.4343919004220498
+        ],
+        [
+          4.389528882242628,
+          0.7018561849682571,
+          0.0,
+          0.40413175986422795,
+          0.9504827980026618,
+          1.0893001851576463,
+          0.40347639416195824
+        ],
+        [
+          1.3785464286214233,
+          0.48486442575689576,
+          0.40413175986422795,
+          0.0,
+          0.4029569453769825,
+          0.40396350850770135,
+          0.4029727147182537
+        ],
+        [
+          2.224151789591952,
+          1.0124224947311098,
+          0.9504827980026618,
+          0.4029569453769825,
+          0.0,
+          0.7376305975889268,
+          0.4033290167458453
+        ],
+        [
+          2.661283086850515,
+          0.7938065075440094,
+          1.0893001851576463,
+          0.40396350850770135,
+          0.7376305975889268,
+          0.0,
+          0.5749960848808463
+        ],
+        [
+          0.43289809394718376,
+          0.4343919004220498,
+          0.40347639416195824,
+          0.4029727147182537,
+          0.4033290167458453,
+          0.5749960848808463,
+          0.0
+        ]
+      ]
+    },
+    "genome": {
+      "alphabet": [
+        "",
+        "DAEC",
+        "DAEC/EAEC",
+        "EAEC",
+        "EAEC/ETEC",
+        "EIEC",
+        "ETEC",
+        "aEPEC",
+        "tEPEC",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.08731370427645775,
+        0.08542905304605403,
+        0.12101588902907938,
+        0.09463716416796748,
+        0.13462131788711845,
+        0.10794377033417435,
+        0.11011440008192427,
+        0.13052905029374107,
+        0.1283956508834833
+      ],
+      "rate": 103.82841308863142,
+      "transition_matrix": [
+        [
+          0.0,
+          9.383046890707902,
+          0.5846382760293262,
+          5.8985025255982055,
+          1.3855901735884304,
+          1.9867946630232358,
+          2.3954052332055307,
+          3.8351684210458736,
+          0.6247512062831442
+        ],
+        [
+          9.383046890707902,
+          0.0,
+          0.857872263429313,
+          0.9874853026881149,
+          0.590139901002877,
+          0.6899511349142599,
+          1.4503585402599362,
+          1.116525610678041,
+          0.6271090664329068
+        ],
+        [
+          0.5846382760293262,
+          0.857872263429313,
+          0.0,
+          0.578464588424728,
+          0.5803183872717894,
+          0.5797826089997784,
+          0.579389745436833,
+          0.5801362590843516,
+          0.5806106816468364
+        ],
+        [
+          5.8985025255982055,
+          0.9874853026881149,
+          0.578464588424728,
+          0.0,
+          0.8528864642777219,
+          0.5812382258722395,
+          0.6442436296007886,
+          1.5617089958470143,
+          0.5808465291518559
+        ],
+        [
+          1.3855901735884304,
+          0.590139901002877,
+          0.5803183872717894,
+          0.8528864642777219,
+          0.0,
+          0.580280744680182,
+          0.8621962110783647,
+          1.0871163656689609,
+          0.5810419194708621
+        ],
+        [
+          1.9867946630232358,
+          0.6899511349142599,
+          0.5797826089997784,
+          0.5812382258722395,
+          0.580280744680182,
+          0.0,
+          0.5798546839865795,
+          0.5816970759692276,
+          0.5801040982432382
+        ],
+        [
+          2.3954052332055307,
+          1.4503585402599362,
+          0.579389745436833,
+          0.6442436296007886,
+          0.8621962110783647,
+          0.5798546839865795,
+          0.0,
+          0.5839488563302628,
+          0.5799297862364778
+        ],
+        [
+          3.8351684210458736,
+          1.116525610678041,
+          0.5801362590843516,
+          1.5617089958470143,
+          1.0871163656689609,
+          0.5816970759692276,
+          0.5839488563302628,
+          0.0,
+          0.8268562961361181
+        ],
+        [
+          0.6247512062831442,
+          0.6271090664329068,
+          0.5806106816468364,
+          0.5808465291518559,
+          0.5810419194708621,
+          0.5801040982432382,
+          0.5799297862364778,
+          0.8268562961361181,
+          0.0
+        ]
+      ]
+    },
+    "gradient": {
+      "alphabet": [
+        "rural",
+        "urban",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.42974691602411946,
+        0.5702530839758806
+      ],
+      "rate": 292.5342341734187,
+      "transition_matrix": [
+        [
+          0.0,
+          2.0402791569052185
+        ],
+        [
+          2.0402791569052185,
+          0.0
+        ]
+      ]
+    },
+    "site_id": {
+      "alphabet": [
+        "Borbon",
+        "Casas",
+        "Esmeraldas",
+        "Quito",
+        "Rural_villages",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.1844001513377907,
+        0.23250958809883024,
+        0.21279948028935264,
+        0.1604715575614016,
+        0.2098192227126249
+      ],
+      "rate": 472.7617073400917,
+      "transition_matrix": [
+        [
+          0.0,
+          0.4845364648169577,
+          2.125116277442773,
+          2.0202391911533413,
+          1.291973035281637
+        ],
+        [
+          0.4845364648169577,
+          0.0,
+          0.9497755839478144,
+          0.628631137450379,
+          0.28686455298360164
+        ],
+        [
+          2.125116277442773,
+          0.9497755839478144,
+          0.0,
+          2.7266902257698873,
+          1.6343596705847636
+        ],
+        [
+          2.0202391911533413,
+          0.628631137450379,
+          2.7266902257698873,
+          0.0,
+          1.0555317851940447
+        ],
+        [
+          1.291973035281637,
+          0.28686455298360164,
+          1.6343596705847636,
+          1.0555317851940447,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "B001_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B100_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B101_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B108_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B109_1": {
+      "PCR": "ETEC",
+      "genome": "EAEC/ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B118_2": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B119_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B119_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B12_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B141_2": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B143_4": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B145_4": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B147_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B169_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B188_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B196_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B200_2": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B200_MG15_isolate": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B201_3": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B201_5": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B202_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B202_2": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B207_2": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B215_5": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B225_3": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B226_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B228_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B231_1": {
+      "PCR": "tEPEC",
+      "genome": "tEPEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B231_2": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B234_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC/EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B235_3": {
+      "PCR": "tEPEC",
+      "genome": "tEPEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B244_3": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B246_1": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B24_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B252_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B255_1": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B262_1": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B270_2": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B274_2": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B280_4": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B295_2": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B309_1": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B311_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B312_4": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B313_5": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B323_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B327_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B329_2": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B36_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B37_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B37_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B37_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B42_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B42_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B45_2": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B46_1": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B62_5": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B66_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B66_4": {
+      "PCR": "ETEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B68_1": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B75_4": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B75_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B84_2": {
+      "PCR": "ETEC",
+      "genome": "EAEC/ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B84_3": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B88_3": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B89_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "B95_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "B99_5": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "C101_1": {
+      "PCR": "ETEC",
+      "genome": "EAEC/ETEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C102_1": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C110_5": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C13_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C14_2A": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C14_2B": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C21_2": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C21_4": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C23_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C25_2": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C26_2": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C32_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C33_3": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C34_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C36_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C38_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C46_4": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C46_isolate": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C50_4": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C70_1": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C71_2": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C79_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C80_4": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C85_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C86_4": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C87_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "C9_2": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "E100_4": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E100_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E101_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E106_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E119_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E124_5": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E124_6": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E129_3": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E13": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E130_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E132_5": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E135_2": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E135_5": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E135_6": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E139_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E140": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E143_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E144": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E14_6": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E158": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E162": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E166": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E167_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E16_6": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E170": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E173": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E175_4": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E175_5": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E177_6": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E179_6": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E184_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E187_2": {
+      "PCR": "tEPEC",
+      "genome": "tEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E188_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E192": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E195_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E195_5": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E197_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E205": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E20_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E212_4": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E215_4": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E218": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E21_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E228_3": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E230_4": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E236_4": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E238_3": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E238_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E240_5": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E26": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E27": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E28": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E29_1": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E33_4": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E34": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E34L_M": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E43": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E44_6": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E55_5": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E55_6": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E57": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E58_3": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E5_5": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E61_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E67_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E70_3": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E71": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E71_6": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E72": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E72_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E76_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E84": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E88_3": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E88_4": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E89_4": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E92_5": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "E99_3": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000000": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000001": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000002": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000003": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000004": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000005": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000006": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000007": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000008": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000009": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000010": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000011": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000012": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000013": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000014": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000015": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000016": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000017": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000019": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000022": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000023": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000024": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000025": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000026": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000027": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000028": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000029": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000030": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000031": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "NODE_0000032": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000033": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000034": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000035": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000036": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000037": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000038": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000039": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000040": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000041": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000042": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000043": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000044": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000045": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000046": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000047": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000048": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000049": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000050": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000051": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000052": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000053": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000054": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000055": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000056": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000057": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000058": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000059": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "NODE_0000062": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000063": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000064": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000065": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000066": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000067": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000068": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000069": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000070": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000071": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "NODE_0000072": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000073": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000074": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000075": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000076": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000077": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000078": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000079": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000080": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000081": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000085": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000087": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000088": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000089": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000090": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000091": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000092": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000093": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000094": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000095": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000096": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000097": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000098": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000099": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000100": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000101": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000102": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000103": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000104": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000105": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000106": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000107": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000108": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000109": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000110": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000111": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000112": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000113": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "NODE_0000114": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "NODE_0000115": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "NODE_0000116": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000117": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000118": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000119": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000120": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000121": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000122": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000123": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000125": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000126": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000127": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000128": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000129": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000130": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000133": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000134": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "NODE_0000135": {
+      "PCR": "",
+      "genome": "EAEC/ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000136": {
+      "PCR": "ETEC",
+      "genome": "EAEC/ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000137": {
+      "PCR": "ETEC",
+      "genome": "EAEC/ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000138": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000139": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000140": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000141": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000142": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000143": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000144": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000145": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000146": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000147": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000148": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000149": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000150": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000152": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000153": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000154": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000155": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000156": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000157": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000158": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000159": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000160": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000161": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000162": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000163": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000164": {
+      "PCR": "ETEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000165": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000166": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Quito"
+    },
+    "NODE_0000167": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Borbon"
+    },
+    "NODE_0000168": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000169": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000170": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000171": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000172": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000173": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000174": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000175": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000176": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000177": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000178": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000179": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000180": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000181": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000182": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000183": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000184": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000188": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000189": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000190": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000191": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000195": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000196": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000197": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000198": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000199": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000200": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000201": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000202": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000203": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000204": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000205": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Borbon"
+    },
+    "NODE_0000206": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000207": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000208": {
+      "PCR": "tEPEC",
+      "genome": "tEPEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000209": {
+      "PCR": "tEPEC",
+      "genome": "tEPEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000210": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Borbon"
+    },
+    "NODE_0000211": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Borbon"
+    },
+    "NODE_0000212": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000213": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000214": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000215": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000216": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Borbon"
+    },
+    "NODE_0000217": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000218": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000219": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000220": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000221": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000222": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000223": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000224": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000225": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000226": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Borbon"
+    },
+    "NODE_0000227": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000228": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000229": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "NODE_0000230": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000231": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000232": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000234": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Borbon"
+    },
+    "NODE_0000235": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000236": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000237": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000238": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000239": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Borbon"
+    },
+    "NODE_0000240": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000241": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000242": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000243": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000244": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000245": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000246": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000247": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000248": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000249": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000250": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000251": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000252": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000253": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000254": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000255": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000256": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Casas"
+    },
+    "NODE_0000260": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000261": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000262": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "NODE_0000266": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000267": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Borbon"
+    },
+    "NODE_0000268": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000295": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000299": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "NODE_0000300": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Esmeraldas"
+    },
+    "NODE_0000301": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q106": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q108": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q128": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q132": {
+      "PCR": "ETEC",
+      "genome": "EAEC/ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q142": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q145": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q147": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q16_1": {
+      "PCR": "ETEC",
+      "genome": "EAEC/ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q186": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q196": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q199": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q212": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q21_2": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q223": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q233": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q23_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q240": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q243": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q245_2": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q249": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q250_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q253": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q270": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q275": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q279_1": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q27_1": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q282": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q284": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q288": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q289": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q294": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q295": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q300": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q307_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q308": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q310": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q312_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q312_reads_u803": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q31_6": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q33_6": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q34_6": {
+      "PCR": "EIEC",
+      "genome": "EIEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q35_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q37_4": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q38_1": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q40": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q49": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q51": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q51_MG_31_isolate": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q56": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q65": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q71_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q85_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q86": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q87": {
+      "PCR": "ETEC",
+      "genome": "EAEC/ETEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q89": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "Q91": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "urban",
+      "site_id": "Quito"
+    },
+    "R104_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R109_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R110_5": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R113_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R113_3": {
+      "PCR": "EAEC",
+      "genome": "EAEC/ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R116_2": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R119_3": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R122_4": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R127_3": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R12_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R137_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R138_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R17_2": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R36_1": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R42_2": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R43_2": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R46_3": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R55_1": {
+      "PCR": "aEPEC",
+      "genome": "aEPEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R56_3": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R58_1": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R60_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R66_4": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R67_3": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R83_3": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R84_2": {
+      "PCR": "",
+      "genome": "",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R85_2": {
+      "PCR": "ETEC",
+      "genome": "ETEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R86_1": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R8_4": {
+      "PCR": "DAEC",
+      "genome": "DAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    },
+    "R92_5": {
+      "PCR": "EAEC",
+      "genome": "EAEC",
+      "gradient": "rural",
+      "site_id": "Rural_villages"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+site_id	Rural_villages	#ca0020
+site_id	Borbon	#f4a582
+site_id	Esmeraldas	#92c5de
+site_id	Quito	#0571b0
+site_id	Casas	#800080
+gradient	rural	#c2a5cf
+gradient	urban	#a6dba0
